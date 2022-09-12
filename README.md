@@ -46,8 +46,8 @@ The following tools were used in building the project:<br><br>
 | :---------------------------------------: | :-----------------------: | :-----------------------------: |
 |                    IDE                    |          VS CODE          | https://code.visualstudio.com/       |
 |           Design Interface Tool           | FIGMA (Prototype - UX/UI) |     https://www.figma.com/       |
-|        Programming Language (App)         |           REACT           |      https://reactjs.org/       |
-|        Programming Language (App)         |        TYPESCRIPT         | https://www.typescriptlang.org/       |
+|   Programming Language (Frontend, App)    |           REACT           |      https://reactjs.org/       |
+|  Programming Language (Backend, Frontend) |        TYPESCRIPT         | https://www.typescriptlang.org/       |
 |         API and backend services          |          NODE.JS          |       https://nodejs.org/       |
 |           NodeJS web framework            |          EXPRESS          |     https://expressjs.com/       |
 | Open source API development ecosystem     |         HOPPSCOTCH        |     https://hoppscotch.io/        |
@@ -110,6 +110,16 @@ The following tools were used in building the project:<br><br>
           <li>Install ExpressJS framework: npm i express</li>
           <li>Configure server, routes and ports: ./src/server.mjs</li>
           <li>Run the settings: node src/server.mjs</li>
+          <li>Install TypeScript only for development environment: npm i typescript -D</li>
+          <li>Convert server file to ts: ./src/server.ts</li>
+          <li>Create a settings file for TS: npx tsc --init</li>
+          <li>Create a JS file from a TS server file: npm run build</li>
+          <li>Run the project: node src/server.js</li>
+          <li>Change ts config file: ./tsconfig.json</li>
+          <li>Install Express support for TS: npm i @types/express -D</li>
+          <li>Install a tool : npm i ts-node-dev -D</li>
+          <li>Configure the package.json: ./package.json </li>
+          <li>Run the application: npm run dev</li>
         </li>
         <li>Install Hoppscotch app and the extension for Chrome: https://hoppscotch.io/</li>
         <li>Install Tailwind CSS, PostCSS and autoprefixer: npm i tailwindcss postcss autoprefixer -D</li>
