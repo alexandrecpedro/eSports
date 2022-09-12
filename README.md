@@ -9,11 +9,12 @@
 <br>
 <br>
 
-|                                                                           |                                                                      |                                                                         | 
-|:------------------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|
-| <img width="1604" alt="Platform - Desktop" src="./project/screens/screen1.png">        | <img width="1200" alt="Landing Page - Desktop" src="./project/screens/screen2.png"> | <img width="1604" alt="Post an ad - Desktop" src="./project/screens/screen3.png"> |
-| <img width="1604" alt="Splash Page - Mobile" src="./project/screens/screen4.png"> |    <img width="1604" alt="Home Page - Mobile" src="./project/screens/screen5.png">    |  <img width="1604" alt="Ad Page - Mobile" src="./project/screens/screen6.png">   |   
+|                                                                                        |                                                                                     |                                                                                   |
+| :------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+|    <img width="1604" alt="Platform - Desktop" src="./project/screens/screen1.png">     | <img width="1200" alt="Landing Page - Desktop" src="./project/screens/screen2.png"> | <img width="1604" alt="Post an ad - Desktop" src="./project/screens/screen3.png"> |
+|   <img width="1604" alt="Splash Page - Mobile" src="./project/screens/screen4.png">    |   <img width="1604" alt="Home Page - Mobile" src="./project/screens/screen5.png">   |   <img width="1604" alt="Ad Page - Mobile" src="./project/screens/screen6.png">   |
 | <img width="1604" alt="Logged User Page - Mobile" src="./project/screens/screen7.png"> |
+
 <br>
 
 <p></p>
@@ -41,25 +42,32 @@ Development of an eSports platform to connect gamers who play the same eSport (w
 <h2> 🛠 Technologies </h2>
 The following tools were used in building the project:<br><br>
 
-|                     Type                     |         Tools          |                           References                           |
-|:--------------------------------------------:|:----------------------:|:--------------------------------------------------------------:|
-|                     IDE                      |         VS CODE        |            https://code.visualstudio.com/                    |
-|        Design Interface Tool                 | FIGMA  (Prototype - UX/UI)  |              https://www.figma.com/                           | 
-|       Programming Language (App)             |          REACT         |            https://reactjs.org/                                 | 
-|       Programming Language (App)             |       TYPESCRIPT       |            https://www.typescriptlang.org/                  |
-|          API and backend services            |         NODE.JS        |            https://nodejs.org/                                 |
-|        Supergraph Platform for GraphQL       |         APOLLO         |            https://www.apollographql.com/                   |
-|  Utility-first CSS Framework                 |      TAILWIND CSS      |            https://tailwindcss.com/                                 | 
-|  Tool for transforming CSS with JavaScript   |         POST CSS       |            https://postcss.org/                                 | 
-|              Graphic components              |     PHOSPHOR ICONS     |            https://phosphoricons.com/                   |
-|        Tool to build frontend faster         |         VITE.JS        |            https://vitejs.dev/                                 |
-|          Media Player Framework              |         VIME.JS        |            https://vimejs.com/                                 |
-|              Deploy Project                  |         VERCEL         |            https://vercel.com/                                 |
+|                   Type                    |           Tools           |           References            |
+| :---------------------------------------: | :-----------------------: | :-----------------------------: |
+|                    IDE                    |          VS CODE          | https://code.visualstudio.com/       |
+|           Design Interface Tool           | FIGMA (Prototype - UX/UI) |     https://www.figma.com/       |
+|        Programming Language (App)         |           REACT           |      https://reactjs.org/       |
+|        Programming Language (App)         |        TYPESCRIPT         | https://www.typescriptlang.org/       |
+|         API and backend services          |          NODE.JS          |       https://nodejs.org/       |
+|           NodeJS web framework            |          EXPRESS          |     https://expressjs.com/       |
+| Open source API development ecosystem     |         HOPPSCOTCH        |     https://hoppscotch.io/        |
+|      Supergraph Platform for GraphQL      |          APOLLO           | https://www.apollographql.com/       |
+|        Utility-first CSS Framework        |       TAILWIND CSS        |    https://tailwindcss.com/       |
+| Tool for transforming CSS with JavaScript |         POST CSS          |      https://postcss.org/       |
+|            Graphic components             |      PHOSPHOR ICONS       |   https://phosphoricons.com/       |
+|       Tool to build frontend faster       |          VITE.JS          |       https://vitejs.dev/       |
+|          Media Player Framework           |          VIME.JS          |       https://vimejs.com/       |
+|              Deploy Project               |          VERCEL           |       https://vercel.com/       |
+
 <br>
 
 <div align = 'center'>
   <h3>Backend | API</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
+  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
+  <br>
+  <h3>Testing</h3>
+  <img width =' 100px ' src="./project/logo/hoppscotch_logo.png" />
   <br>
   <h3>Database</h3>
   <img height =' 100px ' src="./project/logo/graphcms_logo.png"/>
@@ -76,7 +84,6 @@ The following tools were used in building the project:<br><br>
   <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img height =' 50px ' src="./project/logo/tailwind-css_logo.svg" />
   <br>
-  <img width =' 100px ' src="./project/logo/postcss_logo.svg" />
   <img height =' 100px ' src="./project/logo/apollo_logo.png"/>
   <img height =' 100px ' src="./project/logo/vite_logo.svg"/>
   <br>
@@ -96,7 +103,15 @@ The following tools were used in building the project:<br><br>
         <li>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
         <li>Install VS Code extensions: NodeJS, Tailwind CSS IntelliSense, PostCSS Language Support</li>
-        <li>Create a new project: npm create vite@latest</li>
+        <li><b>Backend project</b><br>
+          <li>Create a new project: mkdir backend</li>
+          <li>Enter backend project: cd backend</li>
+          <li>Install Node and start: npm init -y</li>
+          <li>Install ExpressJS framework: npm i express</li>
+          <li>Configure server, routes and ports: ./src/server.mjs</li>
+          <li>Run the settings: node src/server.mjs</li>
+        </li>
+        <li>Install Hoppscotch app and the extension for Chrome: https://hoppscotch.io/</li>
         <li>Install Tailwind CSS, PostCSS and autoprefixer: npm i tailwindcss postcss autoprefixer -D</li>
         <li>Start Tailwind CSS: npx tailwindcss init -p</li>
         <li>Creating database content at GraphCMS (API)</li>
