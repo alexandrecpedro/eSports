@@ -1,5 +1,5 @@
 <div align = "center">
-    <h1> eSports </h1>
+    <h1> NLW eSports </h1>
 </div>
 <br>
 
@@ -29,12 +29,12 @@
 
 <div id="theproject">
 <h2> 📓 The Project </h2>
-<p> eSports platform to connect gamers who play the same eSport (web platform and mobile) </p>
+<p> NLW eSports platform to connect gamers who play the same eSport (web platform and mobile) </p>
 </div>
 
 <div id="target">
 <h2> 💡 Target </h2>
-Development of an eSports platform to connect gamers who play the same eSport (web platform and mobile versions) at NLW (Next Level Week), from Rocketseat
+Development of an NLW eSports platform to connect gamers who play the same eSport (web platform and mobile versions) at NLW (Next Level Week), from Rocketseat
 </div>
 <br>
 
@@ -42,22 +42,27 @@ Development of an eSports platform to connect gamers who play the same eSport (w
 <h2> 🛠 Technologies </h2>
 The following tools were used in building the project:<br><br>
 
-|                   Type                    |           Tools           |           References            |
-| :---------------------------------------: | :-----------------------: | :-----------------------------: |
-|                    IDE                    |          VS CODE          | https://code.visualstudio.com/       |
-|           Design Interface Tool           | FIGMA (Prototype - UX/UI) |     https://www.figma.com/       |
-|   Programming Language (Frontend, App)    |           REACT           |      https://reactjs.org/       |
-|  Programming Language (Backend, Frontend) |        TYPESCRIPT         | https://www.typescriptlang.org/       |
-|         API and backend services          |          NODE.JS          |       https://nodejs.org/       |
-|           NodeJS web framework            |          EXPRESS          |     https://expressjs.com/       |
-| Open source API development ecosystem     |         HOPPSCOTCH        |     https://hoppscotch.io/        |
-|      Supergraph Platform for GraphQL      |          APOLLO           | https://www.apollographql.com/       |
-|        Utility-first CSS Framework        |       TAILWIND CSS        |    https://tailwindcss.com/       |
-| Tool for transforming CSS with JavaScript |         POST CSS          |      https://postcss.org/       |
-|            Graphic components             |      PHOSPHOR ICONS       |   https://phosphoricons.com/       |
-|       Tool to build frontend faster       |          VITE.JS          |       https://vitejs.dev/       |
-|          Media Player Framework           |          VIME.JS          |       https://vimejs.com/       |
-|              Deploy Project               |          VERCEL           |       https://vercel.com/       |
+|                       Type                       |           Tools           |              References              |
+| :----------------------------------------------: | :-----------------------: | :----------------------------------: |
+|                       IDE                        |          VS CODE          |    https://code.visualstudio.com/    |
+|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |        https://www.figma.com/        |
+|         Programming Language (Frontend)          |           REACT           |         https://reactjs.org/         |
+|          Programming Language (Mobile)           |       REACT NATIVE        |       https://reactnative.dev/       |
+| Programming Language (Backend, Frontend, Mobile) |        TYPESCRIPT         |   https://www.typescriptlang.org/    |
+|        API and backend services (Backend)        |          NODE.JS          |         https://nodejs.org/          |
+|          NodeJS web framework (Backend)          |          EXPRESS          |        https://expressjs.com/        |
+|      Open source API development ecosystem       |        HOPPSCOTCH         |        https://hoppscotch.io/        |
+|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |          https://expo.dev/           |
+|      Utility-first CSS Framework (Frontend)      |       TAILWIND CSS        |       https://tailwindcss.com/       |
+|    Tool for transforming CSS with JavaScript     |         POST CSS          |         https://postcss.org/         |
+|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |      https://phosphoricons.com/      |
+|   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |        https://nativebase.io/        |
+|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |     https://reactnavigation.org/     |
+|                Database (Mobile)                 |         FIREBASE          | https://console.firebase.google.com/ |
+|    React Native support Library for Firebase     |   REACT NATIVE FIREBASE   |        https://rnfirebase.io/        |
+|     Tool to build frontend faster (Frontend)     |          VITE.JS          |         https://vitejs.dev/          |
+|              Media Player Framework              |          VIME.JS          |         https://vimejs.com/          |
+|                  Deploy Project                  |          VERCEL           |         https://vercel.com/          |
 
 <br>
 
@@ -65,12 +70,13 @@ The following tools were used in building the project:<br><br>
   <h3>Backend | API</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
+  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <br>
   <h3>Testing</h3>
   <img width =' 100px ' src="./project/logo/hoppscotch_logo.png" />
   <br>
   <h3>Database</h3>
-  <img height =' 100px ' src="./project/logo/graphcms_logo.png"/>
+  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
   <br>
   <h3>IDE</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
@@ -78,16 +84,22 @@ The following tools were used in building the project:<br><br>
   <h3>UX/UI</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
   <img height =' 100px ' src="./project/logo/phosphor-icons_logo.png"/>
+  <img height =' 100px ' src="./project/logo/nativebase_logo.svg" />
   <br>
   <h3>Frontend</h3>
   <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
   <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img height =' 50px ' src="./project/logo/tailwind-css_logo.svg" />
   <br>
-  <img height =' 100px ' src="./project/logo/apollo_logo.png"/>
   <img height =' 100px ' src="./project/logo/vite_logo.svg"/>
   <br>
   <img height =' 100px ' src="./project/logo/vime_logo.svg"/>
+  <br>
+  <h3>Mobile</h3>
+  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img height =' 100px ' src="./project/logo/react_navigation.svg" />
+  <img height =' 100px ' src="./project/logo/expo.png" />
   <br>
   <h3>Deploy</h3>
   <img width =' 300px ' src="./project/logo/vercel_logo.svg" />
@@ -103,30 +115,82 @@ The following tools were used in building the project:<br><br>
         <li>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
         <li>Install VS Code extensions: NodeJS, Tailwind CSS IntelliSense, PostCSS Language Support</li>
-        <li><b>Backend project</b><br>
-          <li>Create a new project: mkdir backend</li>
-          <li>Enter backend project: cd backend</li>
-          <li>Install Node and start: npm init -y</li>
-          <li>Install ExpressJS framework: npm i express</li>
-          <li>Configure server, routes and ports: ./src/server.mjs</li>
-          <li>Run the settings: node src/server.mjs</li>
-          <li>Install TypeScript only for development environment: npm i typescript -D</li>
-          <li>Convert server file to ts: ./src/server.ts</li>
-          <li>Create a settings file for TS: npx tsc --init</li>
-          <li>Create a JS file from a TS server file: npm run build</li>
-          <li>Run the project: node src/server.js</li>
-          <li>Change ts config file: ./tsconfig.json</li>
-          <li>Install Express support for TS: npm i @types/express -D</li>
-          <li>Install a tool : npm i ts-node-dev -D</li>
-          <li>Configure the package.json: ./package.json </li>
-          <li>Run the application: npm run dev</li>
+        <li><b>Backend project</b>
+          <ul>
+            <li>Create a new project: mkdir backend</li>
+            <li>Enter backend project: cd backend</li>
+            <li>Install Node and start: npm init -y</li>
+            <li>Install Express framework:
+              <ul>
+                <li>npm i express</li>
+                <li>npm i @types/express -D (Support with TS)</li>
+              </ul>
+            </li>
+            <li>Configure server, routes and ports: ./src/server.mjs</li>
+            <li>Run the settings: node src/server.mjs</li>
+            <li>Install TypeScript for development environment:
+              <ul>
+                <li>npm i typescript -D</li>
+                <li>npx tsc --init (Settings file for TS)</li>
+                <li>npm i ts-node-dev -D (Automatically updates)</li>
+                <li>Change ts config file: ./tsconfig.json</li>
+              </ul>
+            </li>
+            <li>Convert server file to ts: ./src/server.ts</li>
+            <li>Create a JS file from a TS server file: npm run build</li>
+            <li>Run the project: node src/server.js</li>
+            <li>Configure the package.json: ./package.json </li>
+            <li>Run the application: npm run dev</li>
+          </ul>
         </li>
-        <li>Install Hoppscotch app and the extension for Chrome: https://hoppscotch.io/</li>
+        <li><b>Testing<b><br>
+          <ul>
+            <li>Install Hoppscotch app and the extension for Chrome: https://hoppscotch.io/</li>
+          </ul>
+        </li>
+        <li><b>Frontend project<b>
+          <ul>
+            <li>Create the frontend project (React, Vite and TypeScript): npm create vite@latest</li>
+            <li>Install de dependencies from package.json: npm i</li>
+            <li>To run project: npm run dev</li>
+          </ul>
+        </li>
+        <li><b>Mobile project<b>
+          <ul>
+            <li>Install "R Component" extension at VS Code</li>
+            <li>Install Expo CLI: npm install --global expo-cli</li>
+            <li>Create a new project: expo init my-app (bare workflow)</li>
+            <li>Navigate to project directory: cd my-app</li>
+            <li>Open the project on VS Code: code .</li>
+            <li>Change App.js to App.tsx</li>
+            <li>Create and set tsconfig.json at root</li>
+            <li>Install Native Base on project:
+              <ul>
+                <li>yarn add native-base</li>
+                <li>expo install react-native-svg </li>
+                <li>expo install react-native-safe-area-context</li>
+              </ul>
+            </li>
+            <li>Install React Navigation on project:
+              <ul>
+                <li>expo install @react-navigation/native</li>
+                <li>expo install react-native-screens</li>
+                <li>expo install react-native-safe-area-context</li>
+                <li>expo install @react-navigation/native-stack</li>
+              </ul>
+            </li>
+            <li>Start the development server: expo start</li>
+            <li>Configure the Expo Go on a mobile device or use an emulator</li>
+            <li>Open the app on a mobile device:
+              <ul>
+                <li>On your iPhone or iPad, open the default Apple "Camera" app and scan the QR code you see in the terminal</li>
+                <li>On your Android device, press "Scan QR Code" on the "Projects" tab of the Expo Go app and scan the QR code you see in the terminal.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
         <li>Install Tailwind CSS, PostCSS and autoprefixer: npm i tailwindcss postcss autoprefixer -D</li>
         <li>Start Tailwind CSS: npx tailwindcss init -p</li>
-        <li>Creating database content at GraphCMS (API)</li>
-        <li>Install Apollo Client, GraphQL: npm i @apollo/client graphql</li>
-        <li>Integrate Apollo Client with our application</li>
       </ul>
     </li>
     <br>
