@@ -12,7 +12,7 @@
 |                                                                                        |                                                                                     |                                                                                   |
 | :------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
 | <img width="1200" alt="Landing Page - Desktop" src="./project/screens/screen2.png"> | <img width="1200" alt="Post an ad - Desktop" src="./project/screens/screen3.png"> | <img width="800" alt="Splash Page - Mobile" src="./project/screens/screen4.png"> |   
-| <img width="800" alt="Home Page - Mobile" src="./project/screens/screen5.png"> | <img width="800" alt="Ad Page - Mobile" src="./project/screens/screen6.png"> | <img width="1000" alt="Logged User Page - Mobile" src="./project/screens/screen7.png"> |
+| <img width="600" alt="Home Page - Mobile" src="./project/screens/screen5.png"> | <img width="600" alt="Ad Page - Mobile" src="./project/screens/screen6.png"> | <img width="800" alt="Logged User Page - Mobile" src="./project/screens/screen7.png"> |
 
 <br>
 
