@@ -1,19 +1,18 @@
 <div align = "center">
-    <h1> NLW eSports </h1>
+  <h1> NLW eSports </h1>
 </div>
 <br>
 
 <div align = 'center' justify-content = 'space-around' >
-   <img height=' 80px ' src= './project/logo/rocketseat_logo.svg' alt = 'Rocketseat logo' >
+  <img width="1604" alt=" NLW eSports " src="./project/screens/screen1.png">
 </div>
 <br>
 <br>
 
 |                                                                                        |                                                                                     |                                                                                   |
 | :------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
-|    <img width="1604" alt="Platform - Desktop" src="./project/screens/screen1.png">     | <img width="1200" alt="Landing Page - Desktop" src="./project/screens/screen2.png"> | <img width="1604" alt="Post an ad - Desktop" src="./project/screens/screen3.png"> |
-|   <img width="1604" alt="Splash Page - Mobile" src="./project/screens/screen4.png">    |   <img width="1604" alt="Home Page - Mobile" src="./project/screens/screen5.png">   |   <img width="1604" alt="Ad Page - Mobile" src="./project/screens/screen6.png">   |
-| <img width="1604" alt="Logged User Page - Mobile" src="./project/screens/screen7.png"> |
+| <img width="1200" alt="Landing Page - Desktop" src="./project/screens/screen2.png"> | <img width="1604" alt="Post an ad - Desktop" src="./project/screens/screen3.png"> | <img width="1604" alt="Splash Page - Mobile" src="./project/screens/screen4.png"> |   
+| <img width="1604" alt="Home Page - Mobile" src="./project/screens/screen5.png"> | <img width="1604" alt="Ad Page - Mobile" src="./project/screens/screen6.png"> | <img width="1604" alt="Logged User Page - Mobile" src="./project/screens/screen7.png"> |
 
 <br>
 
