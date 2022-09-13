@@ -62,6 +62,7 @@ The following tools were used in building the project:<br><br>
 |    React Native support Library for Firebase     |   REACT NATIVE FIREBASE   |        https://rnfirebase.io/        |
 |     Tool to build frontend faster (Frontend)     |          VITE.JS          |         https://vitejs.dev/          |
 |              Media Player Framework              |          VIME.JS          |         https://vimejs.com/          |
+|             eSport Streaming Service             |          TWITCH           |        https://www.twitch.tv/        |
 |                  Deploy Project                  |          VERCEL           |         https://vercel.com/          |
 
 <br>
@@ -92,8 +93,8 @@ The following tools were used in building the project:<br><br>
   <img height =' 50px ' src="./project/logo/tailwind-css_logo.svg" />
   <br>
   <img height =' 100px ' src="./project/logo/vite_logo.svg"/>
-  <br>
   <img height =' 100px ' src="./project/logo/vime_logo.svg"/>
+  <img height =' 100px ' src="./project/logo/twitch_logo.png"/>
   <br>
   <h3>Mobile</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -152,6 +153,8 @@ The following tools were used in building the project:<br><br>
           <ul>
             <li>Create the frontend project (React, Vite and TypeScript): npm create vite@latest</li>
             <li>Install de dependencies from package.json: npm i</li>
+            <li>Install Tailwind CSS, PostCSS and autoprefixer: npm i tailwindcss postcss autoprefixer -D</li>
+            <li>Start Tailwind CSS: npx tailwindcss init -p</li>
             <li>To run project: npm run dev</li>
           </ul>
         </li>
@@ -179,6 +182,8 @@ The following tools were used in building the project:<br><br>
                 <li>expo install @react-navigation/native-stack</li>
               </ul>
             </li>
+            <li>Install Google Fonts: expo install expo-font @expo-google-fonts/inter</li>
+            <li>Install Linear Gradient libary: expo install expo-linear-gradient</li>
             <li>Start the development server: expo start</li>
             <li>Configure the Expo Go on a mobile device or use an emulator</li>
             <li>Open the app on a mobile device:
@@ -189,31 +194,45 @@ The following tools were used in building the project:<br><br>
             </li>
           </ul>
         </li>
-        <li>Install Tailwind CSS, PostCSS and autoprefixer: npm i tailwindcss postcss autoprefixer -D</li>
-        <li>Start Tailwind CSS: npx tailwindcss init -p</li>
       </ul>
     </li>
     <br>
     <li>Part 2 - High Speed
       <ul>
-        <li>Create components: Header, Sidebar, Video, Lesson</li> 
-        <li>Convert a svg file (Logo) code to React component: https://svg2jsx.com/</li>
-        <li>Create Logo component</li>
-        <li>Customize color with Tailwind: ./tailwind.config.js</li>
-        <li>Create Event page</li>
-        <li>Install Phosphor Icons: npm i phosphor-react</li>
-        <li>Adding Phosphor Icons to Lesson component</li>
-        <li>Install one of these libraries to work with date at ReactJS:<br> 
-            * Date-fns: npm i date-fns (on this application)<br>
-            * DayJS: npm i dayjs
+        <li><b>Frontend project<b>
+          <ul>
+            <li>Customize contents, themes, fonts and plugins with Tailwind: ./tailwind.config.js</li>
+            <li>Customize the main style: ./src/styles/main.css</li>
+            <li>Convert a svg file (Logo) code to React component: https://svg2jsx.com/</li>
+            <li>Install Phosphor Icons: npm i phosphor-react</li>
+            <li>Set Google Fonts: ./index.html</li>
+            <li>Set the Landing Page: ./src/App.tsx</li>
+          </ul>
         </li>
-        <li>Adding Date-fns to Lesson component</li>
-        <li>Adding functions to components</li>
-        <li>Add pages and components to App.tsx</li>
+        <li><b>Mobile project<b>
+          <ul>
+            <li>Set images, theme and utils for the project</li>
+            <li>Create components: Background, GameCard, Heading, Loading</li>
+            <li>Create Home screen: ./src/screens/Home/index.tsx</li>
+            <li>Load customized font: ./src/App.tsx</li>
+            <li></li>
+          </ul>
+        </li>
       </ul>
     <br>
     <li>Part 3 - Class routing and player</li>
-      <ul>  
+      <ul> 
+        <li>Create components: Header, Sidebar, Video, Lesson</li> 
+          <li>Create Event page</li>
+          <li>Adding Phosphor Icons to Lesson component</li>
+          <li>Install one of these libraries to work with date at ReactJS:<br> 
+            * Date-fns: npm i date-fns (on this application)<br>
+            * DayJS: npm i dayjs
+          </li>
+          <li>Adding Date-fns to Lesson component</li>
+          <li>Adding functions to components</li>
+          <li>Add pages and components to App.tsx</li>
+        </li> 
         <li>Build the Video component: ./components/Video.tsx</li>
         <li>Install the video library VIME: npm i @vime/core @vime/react</li>
         <li>Install React-Router-Dom: npm i react-router-dom</li>
