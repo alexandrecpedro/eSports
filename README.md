@@ -212,10 +212,10 @@ The following tools were used in building the project:<br><br>
         <li><b>Mobile project<b>
           <ul>
             <li>Set images, theme and utils for the project</li>
+            <li>Load customized font: ./src/App.tsx</li>
+            <li>Create the Splash Page</li>
             <li>Create components: Background, GameCard, Heading, Loading</li>
             <li>Create Home screen: ./src/screens/Home/index.tsx</li>
-            <li>Load customized font: ./src/App.tsx</li>
-            <li></li>
           </ul>
         </li>
       </ul>
