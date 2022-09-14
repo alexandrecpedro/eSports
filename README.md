@@ -9,10 +9,10 @@
 <br>
 <br>
 
-|                                                                                        |                                                                                     |                                                                                   |
-| :------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
-| <img width="1604" alt="Landing Page - Desktop" src="./project/screens/screen2.png"> | <img width="1604" alt="Post an ad - Desktop" src="./project/screens/screen3.png"> | <img width="1604" alt="Splash Page - Mobile" src="./project/screens/screen4.png"> |   
-| <img width="1604" alt="Home Page - Mobile" src="./project/screens/screen5.png"> | <img width="1604" alt="Ad Page - Mobile" src="./project/screens/screen6.png"> | <img width="1604" alt="Logged User Page - Mobile" src="./project/screens/screen7.png"> |
+|                                                                                     |                                                                                   |                                                                                        |
+| :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
+| <img width="1604" alt="Landing Page - Desktop" src="./project/screens/screen2.png"> | <img width="1604" alt="Post an ad - Desktop" src="./project/screens/screen3.png"> |   <img width="1604" alt="Splash Page - Mobile" src="./project/screens/screen4.png">    |
+|   <img width="1604" alt="Home Page - Mobile" src="./project/screens/screen5.png">   |   <img width="1604" alt="Ad Page - Mobile" src="./project/screens/screen6.png">   | <img width="1604" alt="Logged User Page - Mobile" src="./project/screens/screen7.png"> |
 
 <br>
 
@@ -57,8 +57,11 @@ The following tools were used in building the project:<br><br>
 |      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |      https://phosphoricons.com/      |
 |   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |        https://nativebase.io/        |
 |        Navigation between pages (Mobile)         |     REACT NAVIGATION      |     https://reactnavigation.org/     |
+|                Database (Backend)                |          SQLITE           |  https://www.sqlite.org/index.html   |
 |                Database (Mobile)                 |         FIREBASE          | https://console.firebase.google.com/ |
 |    React Native support Library for Firebase     |   REACT NATIVE FIREBASE   |        https://rnfirebase.io/        |
+|         SQL Query Builder for JavaScript         |          KNEX.JS          |         https://knexjs.org/          |
+|            Node.js and TypeScript ORM            |          PRISMA           |        https://www.prisma.io/        |
 |     Tool to build frontend faster (Frontend)     |          VITE.JS          |         https://vitejs.dev/          |
 |              Media Player Framework              |          VIME.JS          |         https://vimejs.com/          |
 |             eSport Streaming Service             |          TWITCH           |        https://www.twitch.tv/        |
@@ -72,10 +75,14 @@ The following tools were used in building the project:<br><br>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <br>
+  <img height =' 100px ' src="./project/logo/knex_logo.png" />
+  <img height =' 100px ' src="./project/logo/prisma_logo.png" />
+  <br>
   <h3>Testing</h3>
   <img width =' 100px ' src="./project/logo/hoppscotch_logo.png" />
   <br>
   <h3>Database</h3>
+  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
   <br>
   <h3>IDE</h3>
@@ -114,7 +121,7 @@ The following tools were used in building the project:<br><br>
       <ul>
         <li>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
-        <li>Install VS Code extensions: NodeJS, Tailwind CSS IntelliSense, PostCSS Language Support</li>
+        <li>Install VS Code extensions: NodeJS, Prisma, SQLite, Tailwind CSS IntelliSense, PostCSS Language Support</li>
         <li><b>Backend project</b>
           <ul>
             <li>Create a new project: mkdir backend</li>
@@ -219,37 +226,64 @@ The following tools were used in building the project:<br><br>
         </li>
       </ul>
     <br>
-    <li>Part 3 - Class routing and player</li>
+    <li>Part 3 - To be continued</li>
       <ul> 
-        <li>Create components: Header, Sidebar, Video, Lesson</li> 
-          <li>Create Event page</li>
-          <li>Adding Phosphor Icons to Lesson component</li>
-          <li>Install one of these libraries to work with date at ReactJS:<br> 
-            * Date-fns: npm i date-fns (on this application)<br>
-            * DayJS: npm i dayjs
-          </li>
-          <li>Adding Date-fns to Lesson component</li>
-          <li>Adding functions to components</li>
-          <li>Add pages and components to App.tsx</li>
-        </li> 
-        <li>Build the Video component: ./components/Video.tsx</li>
-        <li>Install the video library VIME: npm i @vime/core @vime/react</li>
-        <li>Install React-Router-Dom: npm i react-router-dom</li>
-        <li>Build Router file: ./Router.tsx</li>
-        <li>Add class routing</li>
+        <li><b>Backend project<b>
+          <ul>
+            <li>Define "Use Cases"</li>
+            <li>Set routes</li>
+            <li>Install and set Prisma
+              <ul>
+                <li>Install (for development): npm i prisma -D</li>
+                <li>Set Database SQLite: npx prisma init --datasource-provider SQLite</li>
+                <li>Create tables and entities (Game, Ads): ./prisma/schema.prisma</li>
+                <li>Relation between entities:
+                  <ul>
+                    <li>Game and Ads: One to Many</li>
+                  </ul>
+                </li>
+                <li>Run migrations: npx prisma migrate dev
+                  <ul>
+                    <li>Name for the new migration: create table games</li>
+                    <li>Name for the new migration: create table ads</li>
+                  </ul>
+                </li>
+                <li>To see DB generated from Prisma: npx prisma studio</li>
+                <li>Install Prisma Client: npm i @prisma/client</li>
+                <li>Generate: npx prisma generate</li>
+              </ul>
+            </li>
+            <li>Install Cors library: npm i @types/cors -D (Protection for non-desirable access)</li>
+          </ul>
+        </li>
+        <li><b>Testing<b><br>
+          <ul>
+            <li>Test backend at Hoppscotch: https://hoppscotch.io/</li>
+          </ul>
+        </li>
       </ul>
     </li>
     <br>
     <li>Part 4 - Subscription via GraphQL
       <ul>
-        <li>Create Subscribe page: ./pages/Subscribe.tsx</li>
-        <li>Configure Management API access permissions from GraphCMS</li>
-        <li>Integrate this Management API access permission to the project</li>
-        <li>Using environmental variables at apollo.ts</li>
-        <li>Build a mutation at Subscribe page</li>
-        <li>Set permissions to Subscriber at GraphCMS API</li>
-        <li>Install Classnames library: npm i classnames</li>
-        <li>Use Classnames library at Lesson component: ./components/Lesson.tsx</li>
+        <li><b>Frontend project<b>
+          <ul>
+            <li>Set images, theme and utils for the project</li>
+            <li>Load customized font: ./src/App.tsx</li>
+            <li>Create the Splash Page</li>
+            <li>Create components: Background, GameCard, Heading, Loading</li>
+            <li>Create Home screen: ./src/screens/Home/index.tsx</li>
+          </ul>
+        </li>
+        <li><b>Mobile project<b>
+          <ul>
+            <li>Set images, theme and utils for the project</li>
+            <li>Load customized font: ./src/App.tsx</li>
+            <li>Create the Splash Page</li>
+            <li>Create components: Background, GameCard, Heading, Loading</li>
+            <li>Create Home screen: ./src/screens/Home/index.tsx</li>
+          </ul>
+        </li>
       </ul> 
     </li> 
     <br>
