@@ -75,7 +75,7 @@ The following tools were used in building the project:<br><br>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <br>
-  <img height =' 100px ' src="./project/logo/knex_logo.png" />
+  <!-- <img height =' 100px ' src="./project/logo/knex_logo.png" /> -->
   <img height =' 100px ' src="./project/logo/prisma_logo.png" />
   <br>
   <h3>Testing</h3>
@@ -83,7 +83,7 @@ The following tools were used in building the project:<br><br>
   <br>
   <h3>Database</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
-  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+  <!-- <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" /> -->
   <br>
   <h3>IDE</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
@@ -99,7 +99,7 @@ The following tools were used in building the project:<br><br>
   <img height =' 50px ' src="./project/logo/tailwind-css_logo.svg" />
   <br>
   <img height =' 100px ' src="./project/logo/vite_logo.svg"/>
-  <img height =' 100px ' src="./project/logo/vime_logo.svg"/>
+  <!-- <img height =' 100px ' src="./project/logo/vime_logo.svg"/> -->
   <img height =' 100px ' src="./project/logo/twitch_logo.png"/>
   <br>
   <h3>Mobile</h3>
