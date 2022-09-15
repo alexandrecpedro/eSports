@@ -55,13 +55,13 @@ The following tools were used in building the project:<br><br>
 |      Utility-first CSS Framework (Frontend)      |       TAILWIND CSS        |       https://tailwindcss.com/       |
 |    Tool for transforming CSS with JavaScript     |         POST CSS          |         https://postcss.org/         |
 |      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |      https://phosphoricons.com/      |
-|   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |        https://nativebase.io/        |
+|   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |        https://nativebase.io/   |
 |        Navigation between pages (Mobile)         |     REACT NAVIGATION      |     https://reactnavigation.org/     |
 |                Database (Backend)                |          SQLITE           |  https://www.sqlite.org/index.html   |
-|                Database (Mobile)                 |         FIREBASE          | https://console.firebase.google.com/ |
-|    React Native support Library for Firebase     |   REACT NATIVE FIREBASE   |        https://rnfirebase.io/        |
-|         SQL Query Builder for JavaScript         |          KNEX.JS          |         https://knexjs.org/          |
-|            Node.js and TypeScript ORM            |          PRISMA           |        https://www.prisma.io/        |
+|                Database (Mobile)                 |         FIREBASE          | https://console.firebase.google.com/  |
+|    React Native support Library for Firebase     |   REACT NATIVE FIREBASE   |        https://rnfirebase.io/ |
+|            UI Components for React               |          RADIX-UI         |     https://www.radix-ui.com/          |
+|            Node.js and TypeScript ORM            |          PRISMA           |        https://www.prisma.io/    |
 |     Tool to build frontend faster (Frontend)     |          VITE.JS          |         https://vitejs.dev/          |
 |              Media Player Framework              |          VIME.JS          |         https://vimejs.com/          |
 |             eSport Streaming Service             |          TWITCH           |        https://www.twitch.tv/        |
@@ -75,7 +75,6 @@ The following tools were used in building the project:<br><br>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <br>
-  <!-- <img height =' 100px ' src="./project/logo/knex_logo.png" /> -->
   <img height =' 100px ' src="./project/logo/prisma_logo.png" />
   <br>
   <h3>Testing</h3>
@@ -99,7 +98,7 @@ The following tools were used in building the project:<br><br>
   <img height =' 50px ' src="./project/logo/tailwind-css_logo.svg" />
   <br>
   <img height =' 100px ' src="./project/logo/vite_logo.svg"/>
-  <!-- <img height =' 100px ' src="./project/logo/vime_logo.svg"/> -->
+  <img height =' 100px ' src="./project/logo/radix-ui_logo.png"/>
   <img height =' 100px ' src="./project/logo/twitch_logo.png"/>
   <br>
   <h3>Mobile</h3>
@@ -264,24 +263,36 @@ The following tools were used in building the project:<br><br>
       </ul>
     </li>
     <br>
-    <li>Part 4 - Subscription via GraphQL
+    <li>Part 4 - Power up
       <ul>
         <li><b>Frontend project<b>
           <ul>
-            <li>Set images, theme and utils for the project</li>
-            <li>Load customized font: ./src/App.tsx</li>
-            <li>Create the Splash Page</li>
-            <li>Create components: Background, GameCard, Heading, Loading</li>
-            <li>Create Home screen: ./src/screens/Home/index.tsx</li>
+            <li>Create components: GameBanner, CreateAdBanner</li>
+            <li>Use React Hooks: useState, useEffect</li>
+            <li>Listing games</li>
+            <li>Create feature: publish an ad (modal)
+              <ul>
+                <li>Install Radix-UI: npm i @radix-ui/react-dialog </li>
+              </ul>
+            </li>
+            <li>Create Input component: ./src/components/Form/Input.tsx</li>
+            <li>Connect with API (backend service)</li>
           </ul>
         </li>
         <li><b>Mobile project<b>
           <ul>
-            <li>Set images, theme and utils for the project</li>
-            <li>Load customized font: ./src/App.tsx</li>
-            <li>Create the Splash Page</li>
-            <li>Create components: Background, GameCard, Heading, Loading</li>
-            <li>Create Home screen: ./src/screens/Home/index.tsx</li>
+            <li>Create Game page: ./src/screens/Game/index.tsx</li>
+            <li>Set Routes
+              <ul>
+                <li>Native Stack Navigator: ./src/routes/app.routes.tsx</li>
+                <li>Navigation Strategy: ./src/routes/index.tsx</li>
+                <li>Comunnicate to TS which routes are available: ./src/@types/navigation.d.ts</li>
+              </ul>
+            </li>
+            <li>Create components: DuoCard, DuoInfo</li>
+            <li>React Native Phosphor Icon Library: npm install --save phosphor-react-native</li>
+            <li>React Native Svg Library: expo install react-native-svg</li>
+            <li>Connect with API (backend service)</li>
           </ul>
         </li>
       </ul> 
