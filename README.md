@@ -362,7 +362,7 @@ The following tools were used in building the project:<br><br>
               <ol>
                 <li>At terminal: expo login</li>
                 <li>Enter your login credentials (user and password)</li>
-              <ol>
+              </ol>
             </li>
             <li>Start the app with expo: expo start</li>
             <li>Test notifications using web interface (Push notifications tools): http://expo.dev/notifications</li>
