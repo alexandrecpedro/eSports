@@ -482,7 +482,7 @@ The following tools were used in building the project:<br><br>
                   <ul>
                     <li>npm install --global expo-cli</li>
                   <ul>
-                <li>
+                </li>
               </ol>
             </li>
             <li &nbsp;>Install the dependencies
