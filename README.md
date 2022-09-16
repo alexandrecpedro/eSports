@@ -120,7 +120,7 @@ The following tools were used in building the project:<br><br>
         <li>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
         <li>Install VS Code extensions: NodeJS, Prisma, SQLite, Tailwind CSS IntelliSense, PostCSS Language Support</li>
-        <li><b>Backend project</b>
+        <li &nbsp;><b>Backend project</b>
           <ul>
             <li>Create a new project: mkdir backend</li>
             <li>Enter backend project: cd backend</li>
@@ -148,12 +148,12 @@ The following tools were used in building the project:<br><br>
             <li>Run the application: npm run dev</li>
           </ul>
         </li>
-        <li><b>Testing</b>
+        <li &nbsp;><b>Testing</b>
           <ul>
             <li>Install Hoppscotch app and the extension for Chrome: https://hoppscotch.io/</li>
           </ul>
         </li>
-        <li><b>Frontend project</b>
+        <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Create the frontend project (React, Vite and TypeScript): npm create vite@latest</li>
             <li>Install de dependencies from package.json: npm i</li>
@@ -162,7 +162,7 @@ The following tools were used in building the project:<br><br>
             <li>To run project: npm run dev</li>
           </ul>
         </li>
-        <li><b>Mobile project</b>
+        <li &nbsp;><b>Mobile project</b>
           <ul>
             <li>Install "R Component" extension at VS Code</li>
             <li>Install Expo CLI: npm install --global expo-cli</li>
@@ -203,7 +203,7 @@ The following tools were used in building the project:<br><br>
     <br>
     <li>Part 2 - High Speed
       <ul>
-        <li><b>Frontend project</b>
+        <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Customize contents, themes, fonts and plugins with Tailwind: ./tailwind.config.js</li>
             <li>Customize the main style: ./src/styles/main.css</li>
@@ -213,7 +213,7 @@ The following tools were used in building the project:<br><br>
             <li>Set the Landing Page: ./src/App.tsx</li>
           </ul>
         </li>
-        <li><b>Mobile project</b>
+        <li &nbsp;><b>Mobile project</b>
           <ul>
             <li>Set images, theme and utils for the project</li>
             <li>Load customized font: ./src/App.tsx</li>
@@ -226,7 +226,7 @@ The following tools were used in building the project:<br><br>
     <br>
     <li>Part 3 - To be continued</li>
       <ul> 
-        <li><b>Backend project</b>
+        <li &nbsp;><b>Backend project</b>
           <ul>
             <li>Define "Use Cases"</li>
             <li>Set routes</li>
@@ -259,7 +259,7 @@ The following tools were used in building the project:<br><br>
             </li>
           </ul>
         </li>
-        <li><b>Testing</b>
+        <li &nbsp;><b>Testing</b>
           <ul>
             <li>Test backend at Hoppscotch: https://hoppscotch.io/</li>
           </ul>
@@ -269,7 +269,7 @@ The following tools were used in building the project:<br><br>
     <br>
     <li>Part 4 - Power up
       <ul>
-        <li><b>Frontend project</b>
+        <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Create components: GameBanner, CreateAdBanner</li>
             <li>Use React Hooks: useState, useEffect</li>
@@ -283,7 +283,7 @@ The following tools were used in building the project:<br><br>
             <li>Connect with API (backend service)</li>
           </ul>
         </li>
-        <li><b>Mobile project</b>
+        <li &nbsp;><b>Mobile project</b>
           <ul>
             <li>Create Game page: ./src/screens/Game/index.tsx</li>
             <li>Set Routes
@@ -304,7 +304,7 @@ The following tools were used in building the project:<br><br>
     <br>
     <li>Part 5 - Final Round
       <ul>
-        <li><b>Frontend project</b>
+        <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Create component: CreateAdModal</li>
             <li>Use Radix UI Components 
@@ -321,7 +321,7 @@ The following tools were used in building the project:<br><br>
             </li>
           </ul>
         </li>
-        <li><b>Mobile project</b>
+        <li &nbsp;><b>Mobile project</b>
           <ul>
             <li>Create component: DuoMatch (Modal)</li>
             <li>Set navigation from Game modal to DuoMatch (modal)</li>
