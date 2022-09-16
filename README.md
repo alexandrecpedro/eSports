@@ -481,7 +481,7 @@ The following tools were used in building the project:<br><br>
                 <li &nbsp;><u>Expo CLI</u>
                   <ul>
                     <li>npm install --global expo-cli</li>
-                  <ul>
+                  </ul>
                 </li>
               </ul>
             </li>
