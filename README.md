@@ -113,7 +113,7 @@ The following tools were used in building the project:<br><br>
 <h2> 🔎 Route </h2>
 <br>
   <ol>
-    <li &nbsp;>Part 1 - Base Building<br>
+    <li &nbsp;>Part 1 - Base Building<br><br>
       <ul &nbsp;>
         <li &nbsp;>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
@@ -199,7 +199,7 @@ The following tools were used in building the project:<br><br>
       </ul>
     </li>
     <br>
-    <li &nbsp;>Part 2 - High Speed<br>
+    <li &nbsp;>Part 2 - High Speed<br><br>
       <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
@@ -222,7 +222,7 @@ The following tools were used in building the project:<br><br>
         </li>
       </ul>
     <br>
-    <li &nbsp;>Part 3 - To be continued<br>
+    <li &nbsp;>Part 3 - To be continued<br><br>
       <ul &nbsp;> 
         <li &nbsp;><b>Backend project</b>
           <ul>
@@ -265,7 +265,7 @@ The following tools were used in building the project:<br><br>
       </ul>
     </li>
     <br>
-    <li &nbsp;>Part 4 - Power up<br>
+    <li &nbsp;>Part 4 - Power up<br><br>
       <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
@@ -300,7 +300,7 @@ The following tools were used in building the project:<br><br>
       </ul> 
     </li> 
     <br>
-    <li &nbsp;>Part 5 - Final Round<br>
+    <li &nbsp;>Part 5 - Final Round<br><br>
       <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
@@ -368,7 +368,7 @@ The following tools were used in building the project:<br><br>
       </ul> 
     </li>
     <br>
-    <li &nbsp;>Part 6 - The Next Level<br>
+    <li &nbsp;>Part 6 - The Next Level<br><br>
       <ul &nbsp;>
         <li>Install GraphQL Code Generator:<br>
           * npm i @graphql-codegen/cli<br>
