@@ -111,11 +111,11 @@ The following tools were used in building the project:<br><br>
 
 <div id="route">
 <h2> 🔎 Route </h2>
-
-<ol>
-    <li>Part 1 - Base Building<br>
-      <ul>
-        <li>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
+<br>
+  <ol>
+    <li &nbsp;>Part 1 - Base Building<br>
+      <ul &nbsp;>
+        <li &nbsp;>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
         <li>Install VS Code extensions: NodeJS, Prisma, SQLite, Tailwind CSS IntelliSense, PostCSS Language Support</li>
         <li &nbsp;><b>Backend project</b>
@@ -199,8 +199,8 @@ The following tools were used in building the project:<br><br>
       </ul>
     </li>
     <br>
-    <li>Part 2 - High Speed<br>
-      <ul>
+    <li &nbsp;>Part 2 - High Speed<br>
+      <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Customize contents, themes, fonts and plugins with Tailwind: ./tailwind.config.js</li>
@@ -222,8 +222,8 @@ The following tools were used in building the project:<br><br>
         </li>
       </ul>
     <br>
-    <li>Part 3 - To be continued<br>
-      <ul> 
+    <li &nbsp;>Part 3 - To be continued<br>
+      <ul &nbsp;> 
         <li &nbsp;><b>Backend project</b>
           <ul>
             <li>Define "Use Cases"</li>
@@ -265,8 +265,8 @@ The following tools were used in building the project:<br><br>
       </ul>
     </li>
     <br>
-    <li>Part 4 - Power up<br>
-      <ul>
+    <li &nbsp;>Part 4 - Power up<br>
+      <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Create components: GameBanner, CreateAdBanner</li>
@@ -300,8 +300,8 @@ The following tools were used in building the project:<br><br>
       </ul> 
     </li> 
     <br>
-    <li>Part 5 - Final Round<br>
-      <ul>
+    <li &nbsp;>Part 5 - Final Round<br>
+      <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Create component: CreateAdModal</li>
@@ -368,8 +368,8 @@ The following tools were used in building the project:<br><br>
       </ul> 
     </li>
     <br>
-    <li>Part 6 - The Next Level<br>
-      <ul>
+    <li &nbsp;>Part 6 - The Next Level<br>
+      <ul &nbsp;>
         <li>Install GraphQL Code Generator:<br>
           * npm i @graphql-codegen/cli<br>
           * npm i @graphql-codegen/typescript<br>
@@ -399,8 +399,9 @@ The following tools were used in building the project:<br><br>
 
 <div id="howtouse">
 <h2>🧪 How to use</h2>
-  <ol>
-    <li>Set the development environment at you local computer</li>
+  <br>
+  <ol &nbsp;>
+    <li &nbsp;>Set the development environment at you local computer</li>
     <li &nbsp;>Clone the repository
       <ul>
         <li>git clone https://github.com/alexandrecpedro/eSports</li>
