@@ -23,6 +23,7 @@
  <a href="#target">Target</a> •
  <a href="#technologies">Technologies</a> •
  <a href="#route">Route</a> •
+ <a href="#howtouse">How to Use</a>
 </p>
 <br>
 
@@ -43,29 +44,27 @@ The following tools were used in building the project:<br><br>
 
 |                       Type                       |           Tools           |            References             |
 | :----------------------------------------------: | :-----------------------: | :-------------------------------: | ------------------------------------ | --- |
-|                       IDE                        |          VS CODE          |  https://code.visualstudio.com/   |
-|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |      https://www.figma.com/       |
-|         Programming Language (Frontend)          |           REACT           |       https://reactjs.org/        |
-|          Programming Language (Mobile)           |       REACT NATIVE        |     https://reactnative.dev/      |
+|                       IDE                        |          VS CODE          |  https://code.visualstudio.com/    |
+|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |      https://www.figma.com/                 |
+|         Programming Language (Frontend)          |           REACT           |       https://reactjs.org/                 |
+|          Programming Language (Mobile)           |       REACT NATIVE        |     https://reactnative.dev/                 |
 | Programming Language (Backend, Frontend, Mobile) |        TYPESCRIPT         |  https://www.typescriptlang.org/  |
-|        API and backend services (Backend)        |          NODE.JS          |        https://nodejs.org/        |
-|          NodeJS web framework (Backend)          |          EXPRESS          |      https://expressjs.com/       |
-|      Open source API development ecosystem       |        HOPPSCOTCH         |      https://hoppscotch.io/       |
-|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |         https://expo.dev/         |
-|      Utility-first CSS Framework (Frontend)      |       TAILWIND CSS        |     https://tailwindcss.com/      |
-|    Tool for transforming CSS with JavaScript     |         POST CSS          |       https://postcss.org/        |
-|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |    https://phosphoricons.com/     |
-|   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |      https://nativebase.io/       |
-|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |   https://reactnavigation.org/    |
-|                Database (Backend)                |          SQLITE           | https://www.sqlite.org/index.html |
-|                       <!--                       |     Database (Mobile)     |             FIREBASE              | https://console.firebase.google.com/ |
-|    React Native support Library for Firebase     |   REACT NATIVE FIREBASE   |      https://rnfirebase.io/       | -->                                  |
-|             UI Components for React              |         RADIX-UI          |     https://www.radix-ui.com/     |
-|            Node.js and TypeScript ORM            |          PRISMA           |      https://www.prisma.io/       |
-|     Tool to build frontend faster (Frontend)     |          VITE.JS          |        https://vitejs.dev/        |
-|                       <!--                       |  Media Player Framework   |              VIME.JS              | https://vimejs.com/                  | --> |
-|             eSport Streaming Service             |          TWITCH           |      https://www.twitch.tv/       |
-|                  Deploy Project                  |          VERCEL           |        https://vercel.com/        |
+|        API and backend services (Backend)        |          NODE.JS          |        https://nodejs.org/                 |
+|          NodeJS web framework (Backend)          |          EXPRESS          |      https://expressjs.com/                 |
+| Open source API development ecosystem (Testing)  |        HOPPSCOTCH         |      https://hoppscotch.io/                  |
+|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |         https://expo.dev/                 |
+|      Utility-first CSS Framework (Frontend)       |       TAILWIND CSS        |     https://tailwindcss.com/                 |
+|    Tool for transforming CSS with JavaScript     |         POST CSS          |       https://postcss.org/                 |
+|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |    https://phosphoricons.com/                 |
+|    UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |      https://nativebase.io/                  |
+|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |   https://reactnavigation.org/ |
+|                Database (Backend)                |          SQLITE           | https://www.sqlite.org/index.html           |
+|   Promise based HTTP client - browser & Node.js  |           AXIOS           |  https://axios-http.com/                 |
+|             UI Components for React              |         RADIX-UI          |     https://www.radix-ui.com/                 |
+|            Node.js and TypeScript ORM            |          PRISMA           |      https://www.prisma.io/                  |
+|     Tool to build frontend faster (Frontend)     |          VITE.JS          |        https://vitejs.dev/                 |
+|             eSport Streaming Service             |          TWITCH           |      https://www.twitch.tv/                  |
+|                  Deploy Project                  |          VERCEL           |        https://vercel.com/                 |
 
 <br>
 
@@ -74,6 +73,8 @@ The following tools were used in building the project:<br><br>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
   <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
   <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <br>
+  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img height =' 100px ' left=' 20px ' src="./project/logo/twitch_logo.png"/>
   <br>
   <h3>Testing</h3>
@@ -82,7 +83,6 @@ The following tools were used in building the project:<br><br>
   <h3>Database</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
   <img height =' 100px ' left=' 20px ' src="./project/logo/prisma_logo.png" />
-  <!-- <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" /> -->
   <br>
   <h3>IDE</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
@@ -111,7 +111,7 @@ The following tools were used in building the project:<br><br>
   <br>
 </div>
 
- <div id="route">
+<div id="route">
 <h2> 🔎 Route </h2>
 
 <ol>
@@ -397,4 +397,54 @@ The following tools were used in building the project:<br><br>
       </ul> 
     </li>
   </ol>
+</div>
+<br>
+
+<div id="howtouse">
+<h2>🧪 How to use</h2>
+   ```
+    - Set the development environment at you local computer
+
+   - Clone the repository:
+   $ git clone https://github.com/alexandrecpedro/eSports
+
+   - Enter the diretory:
+   $ cd eSports
+
+   - Install the dependencies on each file:
+     - backend
+     $ npm install
+
+     - frontend
+     $ npm install
+
+     - mobile
+       - before start, install the following tools:
+         1. Node.js LTS release
+         https://nodejs.org/en/
+         
+         2. Git 
+         https://git-scm.com/downloads
+
+         3. Watchman (only for MacOS and Linux users)
+         https://facebook.github.io/watchman/docs/install#buildinstall
+
+       - Expo CLI
+       $ npm install --global expo-cli
+
+       - Download the dependencies
+       $ npx install-expo-modules@latest
+       $ npm install expo
+       $ expo install
+
+   - Execute:
+    - backend
+     $ npm run dev
+
+     - frontend
+     $ npm run dev
+
+     - mobile
+     $ expo start
+   ```
 </div>
