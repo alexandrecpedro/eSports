@@ -45,27 +45,25 @@ The following tools were used in building the project:<br><br>
 |                       Type                       |           Tools           |            References             |
 | :----------------------------------------------: | :-----------------------: | :-------------------------------: |
 |                       IDE                        |          VS CODE          |  https://code.visualstudio.com/   |
-|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |      https://www.figma.com/       |
-|         Programming Language (Frontend)          |           REACT           |       https://reactjs.org/        |
-|          Programming Language (Mobile)           |       REACT NATIVE        |     https://reactnative.dev/      |
-| Programming Language (Backend, Frontend, Mobile) |        TYPESCRIPT         |  https://www.typescriptlang.org/  |
-|        API and backend services (Backend)        |          NODE.JS          |        https://nodejs.org/        |
-|          NodeJS web framework (Backend)          |          EXPRESS          |      https://expressjs.com/       |
-| Open source API development ecosystem (Testing)  |        HOPPSCOTCH         |      https://hoppscotch.io/       |
-|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |         https://expo.dev/         |
-|      Utility-first CSS Framework (Frontend)      |       TAILWIND CSS        |     https://tailwindcss.com/      |
-|    Tool for transforming CSS with JavaScript     |         POST CSS          |       https://postcss.org/        |
-|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |    https://phosphoricons.com/     |
-|   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |      https://nativebase.io/       |
-|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |   https://reactnavigation.org/    |
-|                Database (Backend)                |          SQLITE           | https://www.sqlite.org/index.html |
-|  Promise based HTTP client - browser & Node.js   |           AXIOS           |      https://axios-http.com/      |
-|             UI Components for React              |         RADIX-UI          |     https://www.radix-ui.com/     |
-|            Node.js and TypeScript ORM            |          PRISMA           |      https://www.prisma.io/       |
-|     Tool to build frontend faster (Frontend)     |          VITE.JS          |        https://vitejs.dev/        |
-|             eSport Streaming Service             |          TWITCH           |      https://www.twitch.tv/       |
-|                  Deploy Project                  |          VERCEL           |        https://vercel.com/        |
-
+|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |      https://www.figma.com/                |
+|         Programming Language (Frontend)          |           REACT           |       https://reactjs.org/                |
+|          Programming Language (Mobile)           |       REACT NATIVE        |     https://reactnative.dev/                |
+| Programming Language (Backend, Frontend, Mobile) |        TYPESCRIPT         |  https://www.typescriptlang.org/ |
+|        API and backend services (Backend)        |          NODE.JS          |        https://nodejs.org/                |
+|          NodeJS web framework (Backend)          |          EXPRESS          |      https://expressjs.com/                |
+| Open source API development ecosystem (Testing)  |        HOPPSCOTCH         |      https://hoppscotch.io/                 |
+|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |         https://expo.dev/                |
+|      Utility-first CSS Framework (Frontend)       |       TAILWIND CSS        |     https://tailwindcss.com/                |
+|    Tool for transforming CSS with JavaScript     |         POST CSS          |       https://postcss.org/                |
+|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |    https://phosphoricons.com/                |
+|    UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |      https://nativebase.io/                 |
+|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |  https://reactnavigation.org/                |
+|                Database (Backend)                |          SQLITE           | https://www.sqlite.org/index.html          |
+|  Promise based HTTP client - browser & Node.js   |           AXIOS           |      https://axios-http.com/                |
+|             UI Components for React              |         RADIX-UI          |     https://www.radix-ui.com/                |
+|  Node.js and TypeScript ORM (Backend, Database)  |          PRISMA           |      https://www.prisma.io/                 |
+|     Tool to build frontend faster (Frontend)     |          VITE.JS          |        https://vitejs.dev/                |
+|             eSport Streaming Service             |          TWITCH           |      https://www.twitch.tv/                 |
 <br>
 
 <div align = 'center'>
@@ -103,9 +101,6 @@ The following tools were used in building the project:<br><br>
   <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img height =' 100px ' left=' 20px ' src="./project/logo/react_navigation.svg" />
   <img height =' 100px ' left=' 20px ' src="./project/logo/expo.png" />
-  <br>
-  <h3>Deploy</h3>
-  <img width =' 300px ' src="./project/logo/vercel_logo.svg" />
   <br>
 </div>
 
