@@ -353,7 +353,6 @@ The following tools were used in building the project:<br><br>
                         <li>Send the notification to an specific device by notification token </li>
                       </ul>
                     </li>
-                    <li></li>
                   </ul>
                 </li>
               </ol>
