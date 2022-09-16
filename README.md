@@ -43,28 +43,28 @@ Development of an NLW eSports platform to connect gamers who play the same eSpor
 The following tools were used in building the project:<br><br>
 
 |                       Type                       |           Tools           |            References             |
-| :----------------------------------------------: | :-----------------------: | :-------------------------------: | ------------------------------------ | --- |
-|                       IDE                        |          VS CODE          |  https://code.visualstudio.com/    |
-|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |      https://www.figma.com/                 |
-|         Programming Language (Frontend)          |           REACT           |       https://reactjs.org/                 |
-|          Programming Language (Mobile)           |       REACT NATIVE        |     https://reactnative.dev/                 |
+| :----------------------------------------------: | :-----------------------: | :-------------------------------: |
+|                       IDE                        |          VS CODE          |  https://code.visualstudio.com/   |
+|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |      https://www.figma.com/       |
+|         Programming Language (Frontend)          |           REACT           |       https://reactjs.org/        |
+|          Programming Language (Mobile)           |       REACT NATIVE        |     https://reactnative.dev/      |
 | Programming Language (Backend, Frontend, Mobile) |        TYPESCRIPT         |  https://www.typescriptlang.org/  |
-|        API and backend services (Backend)        |          NODE.JS          |        https://nodejs.org/                 |
-|          NodeJS web framework (Backend)          |          EXPRESS          |      https://expressjs.com/                 |
-| Open source API development ecosystem (Testing)  |        HOPPSCOTCH         |      https://hoppscotch.io/                  |
-|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |         https://expo.dev/                 |
-|      Utility-first CSS Framework (Frontend)       |       TAILWIND CSS        |     https://tailwindcss.com/                 |
-|    Tool for transforming CSS with JavaScript     |         POST CSS          |       https://postcss.org/                 |
-|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |    https://phosphoricons.com/                 |
-|    UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |      https://nativebase.io/                  |
-|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |   https://reactnavigation.org/ |
-|                Database (Backend)                |          SQLITE           | https://www.sqlite.org/index.html           |
-|   Promise based HTTP client - browser & Node.js  |           AXIOS           |  https://axios-http.com/                 |
-|             UI Components for React              |         RADIX-UI          |     https://www.radix-ui.com/                 |
-|            Node.js and TypeScript ORM            |          PRISMA           |      https://www.prisma.io/                  |
-|     Tool to build frontend faster (Frontend)     |          VITE.JS          |        https://vitejs.dev/                 |
-|             eSport Streaming Service             |          TWITCH           |      https://www.twitch.tv/                  |
-|                  Deploy Project                  |          VERCEL           |        https://vercel.com/                 |
+|        API and backend services (Backend)        |          NODE.JS          |        https://nodejs.org/        |
+|          NodeJS web framework (Backend)          |          EXPRESS          |      https://expressjs.com/       |
+| Open source API development ecosystem (Testing)  |        HOPPSCOTCH         |      https://hoppscotch.io/       |
+|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |         https://expo.dev/         |
+|      Utility-first CSS Framework (Frontend)      |       TAILWIND CSS        |     https://tailwindcss.com/      |
+|    Tool for transforming CSS with JavaScript     |         POST CSS          |       https://postcss.org/        |
+|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |    https://phosphoricons.com/     |
+|   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |      https://nativebase.io/       |
+|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |   https://reactnavigation.org/    |
+|                Database (Backend)                |          SQLITE           | https://www.sqlite.org/index.html |
+|  Promise based HTTP client - browser & Node.js   |           AXIOS           |      https://axios-http.com/      |
+|             UI Components for React              |         RADIX-UI          |     https://www.radix-ui.com/     |
+|            Node.js and TypeScript ORM            |          PRISMA           |      https://www.prisma.io/       |
+|     Tool to build frontend faster (Frontend)     |          VITE.JS          |        https://vitejs.dev/        |
+|             eSport Streaming Service             |          TWITCH           |      https://www.twitch.tv/       |
+|                  Deploy Project                  |          VERCEL           |        https://vercel.com/        |
 
 <br>
 
@@ -153,7 +153,7 @@ The following tools were used in building the project:<br><br>
             <li>Install Hoppscotch app and the extension for Chrome: https://hoppscotch.io/</li>
           </ul>
         </li>
-        <li><b>Frontend project<b>
+        <li><b>Frontend project<b><br>
           <ul>
             <li>Create the frontend project (React, Vite and TypeScript): npm create vite@latest</li>
             <li>Install de dependencies from package.json: npm i</li>
@@ -402,49 +402,100 @@ The following tools were used in building the project:<br><br>
 
 <div id="howtouse">
 <h2>🧪 How to use</h2>
-   ```
-    - Set the development environment at you local computer
-
-   - Clone the repository:
-   $ git clone https://github.com/alexandrecpedro/eSports
-
-   - Enter the diretory:
-   $ cd eSports
-
-   - Install the dependencies on each file:
-     - backend
-     $ npm install
-
-     - frontend
-     $ npm install
-
-     - mobile
-       - before start, install the following tools:
-         1. Node.js LTS release
-         https://nodejs.org/en/
-         
-         2. Git 
-         https://git-scm.com/downloads
-
-         3. Watchman (only for MacOS and Linux users)
-         https://facebook.github.io/watchman/docs/install#buildinstall
-
-       - Expo CLI
-       $ npm install --global expo-cli
-
-       - Download the dependencies
-       $ npx install-expo-modules@latest
-       $ npm install expo
-       $ expo install
-
-   - Execute:
-    - backend
-     $ npm run dev
-
-     - frontend
-     $ npm run dev
-
-     - mobile
-     $ expo start
-   ```
+  <ol>
+    <li>Set the development environment at you local computer</li>
+    <li &nbsp;>Clone the repository
+      <ul>
+        <li>git clone https://github.com/alexandrecpedro/eSports</li>
+      </ul>
+    <li>
+    <li &nbsp;>Enter the project directory:
+      <ul>
+        <li>cd eSports</li>
+      </ul>
+    </li>
+    <li &nbsp;><u>Backend</u>
+      <ol>
+        <li &nbsp;>Enter the directory
+          <ul>
+            <li>cd backend</li>
+          </ul>
+        </li>
+        <li &nbsp;>Install the dependencies
+          <ul>
+            <li>npm install</li>
+          </ul>
+        </li>
+        <li &nbsp;>Run
+          <ul>
+            <li>npm run dev</li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+    <li &nbsp;><u>Frontend</u>
+      <ol>
+        <li &nbsp;>Enter the directory
+          <ul>
+            <li>cd frontend</li>
+          </ul>
+        </li>
+        <li &nbsp;>Install the dependencies
+          <ul>
+            <li>npm install</li>
+          </ul>
+        </li>
+        <li &nbsp;>Run
+          <ul>
+            <li>npm run dev</li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+    <li &nbsp;><u>Mobile</u>
+      <ol>
+        <li &nbsp;>Enter the directory
+          <ul>
+            <li>cd mobile</li>
+          </ul>
+        </li>
+        <li &nbsp;>Before run the mobile app, check if the following tools are already installed:
+          <ol>
+            <li &nbsp;>Node.js LTS release
+              <ul>
+                <li>https://nodejs.org/en/</li>
+              </ul>
+            </li>
+            <li &nbsp;>Git
+              <ul>
+                <li>https://git-scm.com/downloads</li>
+              </ul>
+            </li>
+            <li &nbsp;>Watchman (only for MacOS and Linux users)
+              <ul>
+                <li>https://facebook.github.io/watchman/docs/install#buildinstall</li>
+              </ul>
+            </li>
+            <li &nbsp;>Expo CLI
+              <ul>
+                <li>npm install --global expo-cli</li>
+              <ul>
+            <li>
+          </ol>
+        </li>
+        <li &nbsp;>Install the dependencies
+          <ul>
+            <li>npx install-expo-modules@latest</li>
+            <li &nbsp;>npm install expo</li>
+            <li &nbsp;>expo install</li>
+          </ul>
+        </li>
+        <li &nbsp;>Run
+          <ul>
+            <li>expo start</li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+  </ol>
 </div>
