@@ -408,94 +408,98 @@ The following tools were used in building the project:<br><br>
       <ul>
         <li>git clone https://github.com/alexandrecpedro/eSports</li>
       </ul>
-    <li>
+    </li>
     <li &nbsp;>Enter the project directory:
       <ul>
         <li>cd eSports</li>
       </ul>
     </li>
-    <li &nbsp;><u>Backend</u>
-      <ol>
-        <li &nbsp;>Enter the directory
-          <ul>
-            <li>cd backend</li>
-          </ul>
-        </li>
-        <li &nbsp;>Install the dependencies
-          <ul>
-            <li>npm install</li>
-          </ul>
-        </li>
-        <li &nbsp;>Run
-          <ul>
-            <li>npm run dev</li>
-          </ul>
-        </li>
-      </ol>
-    </li>
-    <li &nbsp;><u>Frontend</u>
-      <ol>
-        <li &nbsp;>Enter the directory
-          <ul>
-            <li>cd frontend</li>
-          </ul>
-        </li>
-        <li &nbsp;>Install the dependencies
-          <ul>
-            <li>npm install</li>
-          </ul>
-        </li>
-        <li &nbsp;>Run
-          <ul>
-            <li>npm run dev</li>
-          </ul>
-        </li>
-      </ol>
-    </li>
-    <li &nbsp;><u>Mobile</u>
-      <ol>
-        <li &nbsp;>Enter the directory
-          <ul>
-            <li>cd mobile</li>
-          </ul>
-        </li>
-        <li &nbsp;>Before run the mobile app, check if the following tools are already installed:
+    <li><b>Testing</b>
+      <ul>
+        <li &nbsp;><u>Backend</u>
           <ol>
-            <li &nbsp;>Node.js LTS release
+            <li &nbsp;>Enter the directory
               <ul>
-                <li>https://nodejs.org/en/</li>
+                <li>cd backend</li>
               </ul>
             </li>
-            <li &nbsp;>Git
+            <li &nbsp;>Install the dependencies
               <ul>
-                <li>https://git-scm.com/downloads</li>
+                <li>npm install</li>
               </ul>
             </li>
-            <li &nbsp;>Watchman (only for MacOS and Linux users)
+            <li &nbsp;>Run
               <ul>
-                <li>https://facebook.github.io/watchman/docs/install#buildinstall</li>
+                <li>npm run dev</li>
               </ul>
             </li>
-            <li &nbsp;>Expo CLI
-              <ul>
-                <li>npm install --global expo-cli</li>
-              <ul>
-            <li>
           </ol>
         </li>
-        <li &nbsp;>Install the dependencies
-          <ul>
-            <li>npx install-expo-modules@latest</li>
-            <li &nbsp;>npm install expo</li>
-            <li &nbsp;>expo install</li>
-          </ul>
+        <li &nbsp;><u>Frontend</u>
+          <ol>
+            <li &nbsp;>Enter the directory
+              <ul>
+                <li>cd frontend</li>
+              </ul>
+            </li>
+            <li &nbsp;>Install the dependencies
+              <ul>
+                <li>npm install</li>
+              </ul>
+            </li>
+            <li &nbsp;>Run
+              <ul>
+                <li>npm run dev</li>
+              </ul>
+            </li>
+          </ol>
         </li>
-        <li &nbsp;>Run
-          <ul>
-            <li>expo start</li>
-          </ul>
+        <li &nbsp;><u>Mobile</u>
+          <ol>
+            <li &nbsp;>Enter the directory
+              <ul>
+                <li>cd mobile</li>
+              </ul>
+            </li>
+            <li &nbsp;>Before run the mobile app, check if the following tools are already installed:
+              <ol>
+                <li &nbsp;>Node.js LTS release
+                  <ul>
+                    <li>https://nodejs.org/en/</li>
+                  </ul>
+                </li>
+                <li &nbsp;>Git
+                  <ul>
+                    <li>https://git-scm.com/downloads</li>
+                  </ul>
+                </li>
+                <li &nbsp;>Watchman (only for MacOS and Linux users)
+                  <ul>
+                    <li>https://facebook.github.io/watchman/docs/install#buildinstall</li>
+                  </ul>
+                </li>
+                <li &nbsp;>Expo CLI
+                  <ul>
+                    <li>npm install --global expo-cli</li>
+                  <ul>
+                <li>
+              </ol>
+            </li>
+            <li &nbsp;>Install the dependencies
+              <ul>
+                <li>npx install-expo-modules@latest</li>
+                <li &nbsp;>npm install expo</li>
+                <li &nbsp;>expo install</li>
+              </ul>
+            </li>
+            <li &nbsp;>Run
+              <ul>
+                <li>expo start</li>
+              </ul>
+            </li>
+          </ol>
         </li>
-      </ol>
+      </ul>
     </li>
   </ol>
 </div>
