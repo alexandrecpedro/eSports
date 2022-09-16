@@ -22,7 +22,7 @@ export function Home() {
   // useEffect
   useEffect(() => {
     // Search for game information from Backend
-    fetch(`http://192.168.0.243:3333/games`)
+    fetch(`http://127.0.0.1:3333/games`)
       .then(response => response.json())
       .then(data => {
         setGames(data);

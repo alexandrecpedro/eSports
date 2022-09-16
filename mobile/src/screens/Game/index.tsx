@@ -14,11 +14,13 @@ import { GameParams } from '../../@types/navigation';
 import { Background } from '../../components/Background';
 import { Heading } from '../../components/Heading';
 import { DuoCard, DuoCardProps } from '../../components/DuoCard';
+import { DuoMatch } from '../../components/DuoMatch';
 
 export function Game() {
     /** REACT HOOKS **/
     // useState
     const [duos, setDuos] = useState<DuoCardProps[]>([]);
+    const [discordDuoSelected, setDiscordDuoSelected] = useState('');
 
     // useEffect
     useEffect(() => {
@@ -38,6 +40,13 @@ export function Game() {
     // Implement navigation
     function handleGoBack() {
         navigation.goBack();
+    }
+
+    const getDiscordUser = async (adsId: string) => {
+        // Search for DiscordUser information from Backend
+        fetch(`http://192.168.0.243:3333/ads/${adsId}/discord`)
+            .then(response => response.json())
+            .then(data => setDiscordDuoSelected(data.discord));
     }
 
     return (
@@ -78,7 +87,7 @@ export function Game() {
                         <DuoCard
                             data={item}
                             // Create modal
-                            onConnect={() => {}}
+                            onConnect={() => getDiscordUser(item.id)}
                         />
                     )}
                     horizontal
@@ -90,6 +99,12 @@ export function Game() {
                             No ads published yet.
                         </Text>
                     }
+                />
+
+                <DuoMatch 
+                    visible={discordDuoSelected.length > 0}
+                    discord={discordDuoSelected}
+                    onClose={() => setDiscordDuoSelected('')}
                 />
             </SafeAreaView>
         </Background>

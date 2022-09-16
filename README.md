@@ -41,47 +41,47 @@ Development of an NLW eSports platform to connect gamers who play the same eSpor
 <h2> 🛠 Technologies </h2>
 The following tools were used in building the project:<br><br>
 
-|                       Type                       |           Tools           |              References              |
-| :----------------------------------------------: | :-----------------------: | :----------------------------------: |
-|                       IDE                        |          VS CODE          |    https://code.visualstudio.com/    |
-|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |        https://www.figma.com/        |
-|         Programming Language (Frontend)          |           REACT           |         https://reactjs.org/         |
-|          Programming Language (Mobile)           |       REACT NATIVE        |       https://reactnative.dev/       |
-| Programming Language (Backend, Frontend, Mobile) |        TYPESCRIPT         |   https://www.typescriptlang.org/    |
-|        API and backend services (Backend)        |          NODE.JS          |         https://nodejs.org/          |
-|          NodeJS web framework (Backend)          |          EXPRESS          |        https://expressjs.com/        |
-|      Open source API development ecosystem       |        HOPPSCOTCH         |        https://hoppscotch.io/        |
-|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |          https://expo.dev/           |
-|      Utility-first CSS Framework (Frontend)      |       TAILWIND CSS        |       https://tailwindcss.com/       |
-|    Tool for transforming CSS with JavaScript     |         POST CSS          |         https://postcss.org/         |
-|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |      https://phosphoricons.com/      |
-|   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |        https://nativebase.io/   |
-|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |     https://reactnavigation.org/     |
-|                Database (Backend)                |          SQLITE           |  https://www.sqlite.org/index.html   |
-|                Database (Mobile)                 |         FIREBASE          | https://console.firebase.google.com/  |
-|    React Native support Library for Firebase     |   REACT NATIVE FIREBASE   |        https://rnfirebase.io/ |
-|            UI Components for React               |          RADIX-UI         |     https://www.radix-ui.com/          |
-|            Node.js and TypeScript ORM            |          PRISMA           |        https://www.prisma.io/    |
-|     Tool to build frontend faster (Frontend)     |          VITE.JS          |         https://vitejs.dev/          |
-|              Media Player Framework              |          VIME.JS          |         https://vimejs.com/          |
-|             eSport Streaming Service             |          TWITCH           |        https://www.twitch.tv/        |
-|                  Deploy Project                  |          VERCEL           |         https://vercel.com/          |
+|                       Type                       |           Tools           |            References             |
+| :----------------------------------------------: | :-----------------------: | :-------------------------------: | ------------------------------------ | --- |
+|                       IDE                        |          VS CODE          |  https://code.visualstudio.com/   |
+|              Design Interface Tool               | FIGMA (Prototype - UX/UI) |      https://www.figma.com/       |
+|         Programming Language (Frontend)          |           REACT           |       https://reactjs.org/        |
+|          Programming Language (Mobile)           |       REACT NATIVE        |     https://reactnative.dev/      |
+| Programming Language (Backend, Frontend, Mobile) |        TYPESCRIPT         |  https://www.typescriptlang.org/  |
+|        API and backend services (Backend)        |          NODE.JS          |        https://nodejs.org/        |
+|          NodeJS web framework (Backend)          |          EXPRESS          |      https://expressjs.com/       |
+|      Open source API development ecosystem       |        HOPPSCOTCH         |      https://hoppscotch.io/       |
+|          Open source platform (Mobile)           |    EXPO BARE WORKFLOW     |         https://expo.dev/         |
+|      Utility-first CSS Framework (Frontend)      |       TAILWIND CSS        |     https://tailwindcss.com/      |
+|    Tool for transforming CSS with JavaScript     |         POST CSS          |       https://postcss.org/        |
+|      Graphic components (Frontend, Mobile)       |      PHOSPHOR ICONS       |    https://phosphoricons.com/     |
+|   UI Utility-first Component Library (Mobile)    |        NATIVE BASE        |      https://nativebase.io/       |
+|        Navigation between pages (Mobile)         |     REACT NAVIGATION      |   https://reactnavigation.org/    |
+|                Database (Backend)                |          SQLITE           | https://www.sqlite.org/index.html |
+|                       <!--                       |     Database (Mobile)     |             FIREBASE              | https://console.firebase.google.com/ |
+|    React Native support Library for Firebase     |   REACT NATIVE FIREBASE   |      https://rnfirebase.io/       | -->                                  |
+|             UI Components for React              |         RADIX-UI          |     https://www.radix-ui.com/     |
+|            Node.js and TypeScript ORM            |          PRISMA           |      https://www.prisma.io/       |
+|     Tool to build frontend faster (Frontend)     |          VITE.JS          |        https://vitejs.dev/        |
+|                       <!--                       |  Media Player Framework   |              VIME.JS              | https://vimejs.com/                  | --> |
+|             eSport Streaming Service             |          TWITCH           |      https://www.twitch.tv/       |
+|                  Deploy Project                  |          VERCEL           |        https://vercel.com/        |
 
 <br>
 
 <div align = 'center'>
   <h3>Backend | API</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
-  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
-  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-  <br>
-  <img height =' 100px ' src="./project/logo/prisma_logo.png" />
+  <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
+  <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img height =' 100px ' left=' 20px ' src="./project/logo/twitch_logo.png"/>
   <br>
   <h3>Testing</h3>
   <img width =' 100px ' src="./project/logo/hoppscotch_logo.png" />
   <br>
   <h3>Database</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
+  <img height =' 100px ' left=' 20px ' src="./project/logo/prisma_logo.png" />
   <!-- <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" /> -->
   <br>
   <h3>IDE</h3>
@@ -89,23 +89,22 @@ The following tools were used in building the project:<br><br>
   <br>
   <h3>UX/UI</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-  <img height =' 100px ' src="./project/logo/phosphor-icons_logo.png"/>
-  <img height =' 100px ' src="./project/logo/nativebase_logo.svg" />
+  <img height =' 100px ' left=' 20px ' src="./project/logo/phosphor-icons_logo.png"/>
+  <img height =' 100px ' left=' 20px ' src="./project/logo/nativebase_logo.svg" />
   <br>
   <h3>Frontend</h3>
   <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-  <img width =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-  <img height =' 50px ' src="./project/logo/tailwind-css_logo.svg" />
+  <img width =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img height =' 50px ' left=' 20px ' src="./project/logo/tailwind-css_logo.svg" />
   <br>
   <img height =' 100px ' src="./project/logo/vite_logo.svg"/>
-  <img height =' 100px ' src="./project/logo/radix-ui_logo.png"/>
-  <img height =' 100px ' src="./project/logo/twitch_logo.png"/>
+  <img height =' 100px ' left=' 20px ' src="./project/logo/radix-ui_logo.png"/>
   <br>
   <h3>Mobile</h3>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-  <img height =' 100px ' src="./project/logo/react_navigation.svg" />
-  <img height =' 100px ' src="./project/logo/expo.png" />
+  <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+  <img height =' 100px ' left=' 20px ' src="./project/logo/react_navigation.svg" />
+  <img height =' 100px ' left=' 20px ' src="./project/logo/expo.png" />
   <br>
   <h3>Deploy</h3>
   <img width =' 300px ' src="./project/logo/vercel_logo.svg" />
@@ -252,7 +251,12 @@ The following tools were used in building the project:<br><br>
                 <li>Generate: npx prisma generate</li>
               </ul>
             </li>
-            <li>Install Cors library: npm i @types/cors -D (Protection for non-desirable access)</li>
+            <li>Cors library (Protection for non-desirable access) 
+              <ul>
+                <li> npm i @types/cors -D </li>
+                <li> npm i @types/cors </li>
+              </ul>
+            </li>
           </ul>
         </li>
         <li><b>Testing<b><br>
@@ -298,7 +302,76 @@ The following tools were used in building the project:<br><br>
       </ul> 
     </li> 
     <br>
-    <li>Part 5 - Deploy, CodeGen and next steps
+    <li>Part 5 - Final Round
+      <ul>
+        <li><b>Frontend project<b>
+          <ul>
+            <li>Create component: CreateAdModal</li>
+            <li>Use Radix UI Components 
+              <ul>
+                <li>Checkbox = npm install @radix-ui/react-checkbox</li>
+                <li>Select = npm install @radix-ui/react-select</li>
+                <li>Toggle Group = npm install @radix-ui/react-toggle-group</li>
+              </ul>
+            </li>
+            <li>Send Ad modal values to API (backend service)
+              <ul>
+                <li>Axios: npm install axios</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><b>Mobile project<b>
+          <ul>
+            <li>Create component: DuoMatch (Modal)</li>
+            <li>Set navigation from Game modal to DuoMatch (modal)</li>
+            <li>Use UI Icons
+              <ul>
+                <li>Vector-Icons (Expo): MaterialIcons</li>
+                <li>Phosphor Icon React Native: CheckCircle </li>
+                <li>Comunnicate to TS which routes are available: ./src/@types/navigation.d.ts</li>
+              </ul>
+            </li>
+            <li>New Features
+              <ol>
+                <li>Condional open and close DuoMatch (modal) from Game page (screen)</li>
+                <li>Open DuoMatch (modal) when click at Connect button on Game page (screen)</li>
+                <li>When click at discordUser from DuoMatch (modal), keep this info to transfer area
+                  <ul>
+                    <li>Clipboard library: expo install expo-clipboard</li>
+                  </ul>
+                </li>
+                <li>Sending notifications (push), when keeping discordUser at device clipboard
+                  <ul>
+                    <li>Expo Notifications library: expo install expo-notifications</li>
+                    <li>New Services
+                      <ul>
+                        <li>Set user notifications configuration from this app</li>
+                        <li>Find device identificator token (getPushNotificationToken)</li>
+                        <li>Expo Modules Core library: expo install expo-modules-core</li>
+                        <li>Keep some devices references (useRef hook): getNotificationListener, responseNotificationListener</li>
+                        <li>Send the notification to an specific device by notification token </li>
+                      </ul>
+                    </li>
+                    <li></li>
+                  </ul>
+                </li>
+              </ol>
+            </li>
+            <li>Before executing app:
+              <ol>
+                <li>At terminal: expo login</li>
+                <li>Enter your login credentials (user and password)</li>
+              <ol>
+            </li>
+            <li>Start the app with expo: expo start</li>
+            <li>Test notifications using web interface (Push notifications tools): http://expo.dev/notifications</li>
+          </ul>
+        </li>
+      </ul> 
+    </li>
+    <br>
+    <li>Part 6 - The Next Level
       <ul>
         <li>Install GraphQL Code Generator:<br>
           * npm i @graphql-codegen/cli<br>
@@ -323,5 +396,5 @@ The following tools were used in building the project:<br><br>
         <li>Deploy at Vercel</li>
       </ul> 
     </li>
-</ol>
+  </ol>
 </div>
