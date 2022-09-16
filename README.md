@@ -73,8 +73,6 @@ The following tools were used in building the project:<br><br>
   <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
   <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
   <img height =' 100px ' left=' 20px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-  <br>
-  <img height =' 100px ' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img height =' 100px ' left=' 20px ' src="./project/logo/twitch_logo.png"/>
   <br>
   <h3>Testing</h3>
@@ -116,7 +114,7 @@ The following tools were used in building the project:<br><br>
 
 <ol>
     <li>Part 1 - Base Building
-      <ul>
+      <ul &nbsp;>
         <li>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
         <li>Install VS Code extensions: NodeJS, Prisma, SQLite, Tailwind CSS IntelliSense, PostCSS Language Support</li>
@@ -202,7 +200,7 @@ The following tools were used in building the project:<br><br>
     </li>
     <br>
     <li>Part 2 - High Speed
-      <ul>
+      <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Customize contents, themes, fonts and plugins with Tailwind: ./tailwind.config.js</li>
@@ -225,7 +223,7 @@ The following tools were used in building the project:<br><br>
       </ul>
     <br>
     <li>Part 3 - To be continued</li>
-      <ul> 
+      <ul &nbsp;> 
         <li &nbsp;><b>Backend project</b>
           <ul>
             <li>Define "Use Cases"</li>
@@ -268,7 +266,7 @@ The following tools were used in building the project:<br><br>
     </li>
     <br>
     <li>Part 4 - Power up
-      <ul>
+      <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Create components: GameBanner, CreateAdBanner</li>
@@ -303,7 +301,7 @@ The following tools were used in building the project:<br><br>
     </li> 
     <br>
     <li>Part 5 - Final Round
-      <ul>
+      <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
             <li>Create component: CreateAdModal</li>
@@ -401,7 +399,7 @@ The following tools were used in building the project:<br><br>
 
 <div id="howtouse">
 <h2>🧪 How to use</h2>
-  <ol>
+  <ol &nbsp;>
     <li>Set the development environment at you local computer</li>
     <li &nbsp;>Clone the repository
       <ul>
