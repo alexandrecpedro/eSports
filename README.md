@@ -462,28 +462,28 @@ The following tools were used in building the project:<br><br>
               </ul>
             </li>
             <li &nbsp;>Before run the mobile app, check if the following tools are already installed:
-              <ol>
-                <li &nbsp;>Node.js LTS release
+              <ul>
+                <li &nbsp;><u>Node.js LTS release</u>
                   <ul>
                     <li>https://nodejs.org/en/</li>
                   </ul>
                 </li>
-                <li &nbsp;>Git
+                <li &nbsp;><u>Git</u>
                   <ul>
                     <li>https://git-scm.com/downloads</li>
                   </ul>
                 </li>
-                <li &nbsp;>Watchman (only for MacOS and Linux users)
+                <li &nbsp;><u>Watchman (only for MacOS and Linux users)</u>
                   <ul>
                     <li>https://facebook.github.io/watchman/docs/install#buildinstall</li>
                   </ul>
                 </li>
-                <li &nbsp;>Expo CLI
+                <li &nbsp;><u>Expo CLI</u>
                   <ul>
                     <li>npm install --global expo-cli</li>
                   <ul>
                 </li>
-              </ol>
+              </ul>
             </li>
             <li &nbsp;>Install the dependencies
               <ul>
