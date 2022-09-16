@@ -111,9 +111,8 @@ The following tools were used in building the project:<br><br>
 
 <div id="route">
 <h2> 🔎 Route </h2>
-<br>
   <ol>
-    <li &nbsp;>Part 1 - Base Building<br><br>
+    <li &nbsp;>Part 1 - Base Building<br/>
       <ul &nbsp;>
         <li &nbsp;>Build the project prototype: https://www.figma.com/file/npwloJcPtSmKG6xsuwNltZ/NLW-eSports-(Community)?node-id=0%3A1</li>
         <li>Install VS Code (IDE)</li>
@@ -199,7 +198,7 @@ The following tools were used in building the project:<br><br>
       </ul>
     </li>
     <br>
-    <li &nbsp;>Part 2 - High Speed<br><br>
+    <li &nbsp;>Part 2 - High Speed<br/>
       <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
@@ -222,7 +221,7 @@ The following tools were used in building the project:<br><br>
         </li>
       </ul>
     <br>
-    <li &nbsp;>Part 3 - To be continued<br><br>
+    <li &nbsp;>Part 3 - To be continued<br/>
       <ul &nbsp;> 
         <li &nbsp;><b>Backend project</b>
           <ul>
@@ -265,7 +264,7 @@ The following tools were used in building the project:<br><br>
       </ul>
     </li>
     <br>
-    <li &nbsp;>Part 4 - Power up<br><br>
+    <li &nbsp;>Part 4 - Power up<br/>
       <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
@@ -300,7 +299,7 @@ The following tools were used in building the project:<br><br>
       </ul> 
     </li> 
     <br>
-    <li &nbsp;>Part 5 - Final Round<br><br>
+    <li &nbsp;>Part 5 - Final Round<br />
       <ul &nbsp;>
         <li &nbsp;><b>Frontend project</b>
           <ul>
@@ -368,7 +367,7 @@ The following tools were used in building the project:<br><br>
       </ul> 
     </li>
     <br>
-    <li &nbsp;>Part 6 - The Next Level<br><br>
+    <li &nbsp;>Part 6 - The Next Level<br>
       <ul &nbsp;>
         <li>Install GraphQL Code Generator:<br>
           * npm i @graphql-codegen/cli<br>
@@ -399,7 +398,6 @@ The following tools were used in building the project:<br><br>
 
 <div id="howtouse">
 <h2>🧪 How to use</h2>
-  <br>
   <ol &nbsp;>
     <li &nbsp;>Set the development environment at you local computer</li>
     <li &nbsp;>Clone the repository
