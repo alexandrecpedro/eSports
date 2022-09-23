@@ -347,6 +347,13 @@ The following tools were used in building the project:<br><br>
                     </li>
                   </ul>
                 </li>
+                <li> Link with Discord Session
+                  <ul>
+                    <li>Expo AuthSession library: expo install expo-auth-session expo-random </li>
+                    <li>Create a new Screen: SignIn (./src/screens/SignIn/index.tsx)</li>
+                    <li>Get Discord Authentication URL: http://discord.com/developers/applications</li>
+                  </ul>
+                </li>
               </ol>
             </li>
             <li>Before executing app:
